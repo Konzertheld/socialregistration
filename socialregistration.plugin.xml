@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>Social Registration</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+	<author url="http://konzertheld.de/">Christian Gredig</author>
+	<version>0.1</version>
+	<url>http://habariproject.org/</url>
+	<description><![CDATA[
+		Create Habari accounts from your social network accounts.
+	]]></description>
+	<help><![CDATA[
+		
+	]]></help>
+	<copyright>2015</copyright>
+	<guid>926A316A-03FC-4548-BD74-7CE1AB13B803</guid>
+	<requires><feature>socialauth</feature></requires>
+</pluggable>
