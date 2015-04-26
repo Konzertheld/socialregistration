@@ -11,7 +11,7 @@ class SocialRegistration extends Plugin
 			$user = new User( array( 'username' => $userdata['email'], 'email' => $userdata['email'] ) );
 			if ($user->insert()) {
 				// $group->add($user);
-				$user->portrait_url = $userdata['portrait_url'];
+				$user->info->imageurl = $userdata['portrait_url'];
 				$user->info->displayname = $userdata['name'];
 				$fieldname = "servicelink_$service";
 				$user->info->{$fieldname} = $userdata['id'];
